@@ -9,9 +9,9 @@ body {
 }
 
 nav {
-  margin: 10px;
-  
+  margin: 10px; 
 }
+
 ul {
   display: flex;
   flex-wrap: wrap;
@@ -32,11 +32,6 @@ li:not(last-child) {
   align-items: center;
   margin-top:10%;
 }
-
-/* img {
-  width: 400px;
-  height: 280px;
-} */
 
 input {
   width:664px;
