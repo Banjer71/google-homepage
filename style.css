@@ -39,7 +39,7 @@ li:not(last-child) {
 }
 
 input {
-  width:664px;
+  width: 664px;
   height:42px;
   border:1px solid #ccc;
   border-radius:2px;
@@ -57,14 +57,22 @@ input::placeholder {
 }
 
 /*================= media query================ */
+@media only screen and (max-width: 740px) {
+
+  input {
+    width: 520px;
+  }
+}
 
 @media only screen and (max-width: 500px) {
-  
- 
+
   .tools {
     margin-left: auto;
-    
   }
 
+  input {
+    width: 264px;
+  }
 
 }
+
