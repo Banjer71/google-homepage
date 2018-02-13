@@ -30,6 +30,7 @@ li:not(last-child) {
   margin-left: 20px;
 }
 
+
 #logo {
   display: flex;
   flex-direction: column;
