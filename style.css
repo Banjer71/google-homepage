@@ -6,13 +6,8 @@
 body {
   font: small arial, sans-serif;
   display: flex;
-<<<<<<< HEAD
   flex-direction: column;
   min-height: 100vh;
-=======
-  min-height: 100vh;
-  flex-direction: column;
->>>>>>> refs/remotes/origin/master
 }
 
 nav {
@@ -39,7 +34,6 @@ li:not(last-child) {
 
 
 #logo {
-<<<<<<< HEAD
   flex: 1;
   margin-top:10%;
   margin-left: auto;
@@ -47,15 +41,6 @@ li:not(last-child) {
   text-align: center;
   
 } 
-=======
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* margin-top:10%; */
-}
->>>>>>> refs/remotes/origin/master
 
 input {
   width: 664px;
@@ -69,7 +54,6 @@ input {
   color: #000;
   font-size:1.2em;
   padding-left: 10px;
-  margin-bottom: 40%;
 }
 
 input::placeholder {
@@ -82,7 +66,6 @@ input:focus {
   outline: 0;
 }
 
-<<<<<<< HEAD
 .cerca {
   width: 126px;
   height: 36px;
@@ -138,23 +121,6 @@ span a {
 
 
 
-=======
-footer {
-  background: #f2f2f2;
-  border-top: 1px solid #e4e4e4;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: rgb(228, 228, 228);
-  padding: 10px;
-  margin: 0;
-}
-
-
-.foot li:nth-child(4) {
-  margin-left: auto;
-}
-
->>>>>>> refs/remotes/origin/master
 /*================= media query================ */
 @media only screen and (max-width: 740px) {
 
