@@ -64,11 +64,6 @@ input:focus {
   outline: 0;
 }
 
-<<<<<<< HEAD
-/* -------------------buttons-------------------- */
-
-=======
->>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
 .cerca {
   width: 126px;
   height: 36px;
@@ -92,17 +87,6 @@ input:focus {
   padding: 0 16px;
   border: 1px solid #f2f2f2;;
   border-radius: 2px;
-<<<<<<< HEAD
-  background: #f2f2f2;
-  margin: 11px 4px;
-  
-}
-
-/* -------------------footer---------------------- */
-
-footer {
-=======
->>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
   background: #f2f2f2;
   margin: 11px 4px;
   
@@ -116,13 +100,8 @@ footer {
     border-top-color: rgb(228, 228, 228);
   padding: 8px;
   margin: 0;
-<<<<<<< HEAD
-  display: flex;
-  
-=======
   color: #757575;
   display: flex;
->>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
 }
 
 .foot2 {
@@ -130,10 +109,6 @@ footer {
   margin-right: 10px;
 }
 .foot li {
-<<<<<<< HEAD
-  color: rgba(0,0,0,.54);
-=======
->>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
   padding-left: 10px;
 }
 
@@ -156,13 +131,8 @@ footer {
   input {
     width: 520px;
   }
-<<<<<<< HEAD
-
-  
-=======
 }
 
->>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
 @media only screen and (max-width: 500px) {
 
   .tools {
@@ -181,23 +151,14 @@ footer {
     display: flex;
     flex-direction: column;
     padding-right: 30px;
-<<<<<<< HEAD
-   
-    
-  }
-=======
   }
 
->>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
   .foot1 {
     margin: auto;
   }
   .foot2 {
     margin: auto;
   }
-<<<<<<< HEAD
-=======
   
->>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
 }
 
