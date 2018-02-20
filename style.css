@@ -1,5 +1,4 @@
 * {
-  /* outline: 1px solid red; */
   margin: 0;
   padding: 0;
 }
@@ -7,8 +6,8 @@
 body {
   font: small arial, sans-serif;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 nav {
@@ -34,13 +33,13 @@ li:not(last-child) {
 }
 
 #logo {
-  display: flex;
   flex: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* margin-top:10%; */
-}
+  margin-top:10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+} 
 
 input {
   width: 664px;
@@ -49,13 +48,11 @@ input {
   border-radius:2px;
   background:#fff;
   color:rgb(255, 255, 255);
-  /* box-shadow: 0px 0px 8px -2px rgba(0,0,0,1); */
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
   color: #000;
   font-size:1.2em;
   padding-left: 10px;
-  margin-bottom: 40%;
 }
 
 input::placeholder {
@@ -67,8 +64,11 @@ input:focus {
   outline: 0;
 }
 
+<<<<<<< HEAD
 /* -------------------buttons-------------------- */
 
+=======
+>>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
 .cerca {
   width: 126px;
   height: 36px;
@@ -92,6 +92,7 @@ input:focus {
   padding: 0 16px;
   border: 1px solid #f2f2f2;;
   border-radius: 2px;
+<<<<<<< HEAD
   background: #f2f2f2;
   margin: 11px 4px;
   
@@ -100,15 +101,28 @@ input:focus {
 /* -------------------footer---------------------- */
 
 footer {
+=======
+>>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
   background: #f2f2f2;
-  border-top: 1px solid #e4e4e4;
+  margin: 11px 4px;
+  
+}
+
+footer {
+   background: #f2f2f2;
+   border-top: 1px solid #e4e4e4;
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: rgb(228, 228, 228);
   padding: 8px;
   margin: 0;
+<<<<<<< HEAD
   display: flex;
   
+=======
+  color: #757575;
+  display: flex;
+>>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
 }
 
 .foot2 {
@@ -116,7 +130,10 @@ footer {
   margin-right: 10px;
 }
 .foot li {
+<<<<<<< HEAD
   color: rgba(0,0,0,.54);
+=======
+>>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
   padding-left: 10px;
 }
 
@@ -139,8 +156,13 @@ footer {
   input {
     width: 520px;
   }
+<<<<<<< HEAD
 
   
+=======
+}
+
+>>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
 @media only screen and (max-width: 500px) {
 
   .tools {
@@ -159,14 +181,23 @@ footer {
     display: flex;
     flex-direction: column;
     padding-right: 30px;
+<<<<<<< HEAD
    
     
   }
+=======
+  }
+
+>>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
   .foot1 {
     margin: auto;
   }
   .foot2 {
     margin: auto;
   }
+<<<<<<< HEAD
+=======
+  
+>>>>>>> bf29bcb7fa8946ba728cbea0cba181d5ebc36d75
 }
 
