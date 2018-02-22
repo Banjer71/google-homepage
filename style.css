@@ -32,7 +32,6 @@ li:not(last-child) {
   margin-left: 20px;
 }
 
-
 #logo {
   flex: 1;
   margin-top:150px;
@@ -59,7 +58,6 @@ input {
 input::placeholder {
   padding-left:5px;
   color: #ccc;
-  
 }
 
 input:focus {
