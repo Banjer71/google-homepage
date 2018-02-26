@@ -7,11 +7,12 @@ body {
   font: small arial, sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 nav {
   margin: 10px; 
+  flex: 1;
 }
 
 a {
@@ -33,8 +34,8 @@ li:not(last-child) {
 }
 
 #logo {
-  flex: 1;
-  margin-top:10%;
+  flex: 2;
+  /* margin-top:10%; */
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -102,6 +103,7 @@ footer {
   margin: 0;
   color: #757575;
   display: flex;
+
 }
 
 .foot2 {
